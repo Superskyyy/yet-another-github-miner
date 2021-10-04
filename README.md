@@ -1,6 +1,6 @@
 # How to Dev and Use:
 
-**THE SCRAPER IS FOR EDUCATIONAL PURPOSES ONLY**
+**THE PROJECT IS FOR EDUCATIONAL PURPOSES ONLY**
 
 ## Components 
 
@@ -22,7 +22,11 @@ Install dependencies - `pip install -r requirements.txt`
 
 Change the `sample_credentials.py` to `crendentials.py` upon cloning, then fill in your GitHub personal access token.
 
-Run `main.py`
+Run `main.py` to filter through repos and paths.
+
+Run `miner_selenium.py` to run the chrome-based selenium scraper.
+
+Run `pickle_loader.py` to see the first 1000 results collected.
 
 
 
