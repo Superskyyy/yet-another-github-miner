@@ -77,7 +77,7 @@ def get_creation_date_batch(urls: [str]) -> [str]:  # year string generator
         owner = s[-2]
         repo = s[-1]
         res = requests.get(f'https://api.github.com/repos/{owner}/{repo}',
-                           headers={'Authorization': 'token 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'}).json()
+                           headers={'Authorization': f'token {GITHUB_TOKEN}'}).json()
         time.sleep(1)
         print(res)
         print(res['created_at'])
