@@ -5,12 +5,16 @@
 ## Components 
 
 ### Criteria Assessment 
-Based on GitHub API v3 and GraphQL API v4, add new ones to `apis`
+Based on GitHub API v3 and GraphQL API v4.
+
+Note the GraphQL API can be slow in action.
 
 ### Scraper
-Scraper filters the entire GitHub for matched repos containing the wanted file at any depth
+Scraper filters the entire GitHub for matched repos containing the wanted file at any depth,
 
-For example: `MLProject`
+Only the first batch of 1000 results will be returned.
+
+Example file target: `MLProject`
 
 GitHub Query - `filename:MLProject`
 
