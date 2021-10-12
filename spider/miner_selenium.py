@@ -1,4 +1,5 @@
 import random
+import re
 import time
 
 from selenium import webdriver
@@ -76,3 +77,4 @@ pretty_print(_dict)
 driver.close()
 if __name__ == "__main__":
     ...
+
