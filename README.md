@@ -12,7 +12,7 @@ Note the GraphQL API can be slow in action.
 ### Scraper
 Scraper filters the entire GitHub for matched repos containing the wanted file at any depth,
 
-Only the first batch of 1000 results will be returned.
+~Only the first batch of 1000 results will be returned.~ Sample scraper shows a way to overcome the limitation
 
 Example file target: `MLProject`
 
