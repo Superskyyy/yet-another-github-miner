@@ -1,18 +1,13 @@
 # How to Dev and Use:
 
-**THE PROJECT IS FOR EDUCATIONAL PURPOSES ONLY**
+**THE PROJECT IS FOR EDUCATIONAL PURPOSES ONLY, anyone using this scraper is expected to adhere to GitHub regulations**
 
 ## Components 
 
-### Criteria Assessment 
-Based on GitHub API v3 and GraphQL API v4.
-
-Note the GraphQL API can be slow in action.
-
 ### Scraper
-Scraper filters the entire GitHub for matched repos containing the wanted file at any depth,
+Scraper filters GitHub for matched repos containing the wanted file at any depth,
 
-Only the first batch of 1000 results will be returned.
+~Only the first batch of 1000 results will be returned.~ Sample scraper shows a way to overcome the limitation
 
 Example file target: `MLProject`
 
@@ -29,6 +24,8 @@ Change the `sample_credentials.py` to `crendentials.py` upon cloning, then fill 
 Run `main.py` to filter through repos and paths.
 
 Run `miner_selenium.py` to run the chrome-based selenium scraper.
+
+Run `miner_requests.py` to run the GitHub v3 API scraper.
 
 Run `pickle_loader.py` to see the first 1000 results collected.
 
